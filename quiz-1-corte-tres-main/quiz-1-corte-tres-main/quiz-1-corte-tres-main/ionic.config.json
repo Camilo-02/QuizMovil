@@ -1,0 +1,8 @@
+{
+  "name": "quiz1-corte-tres",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite",
+  "id": "4aee06c3"
+}
