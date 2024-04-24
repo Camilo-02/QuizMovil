@@ -1,0 +1,8 @@
+{
+  "name": "FrontEndParcial",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite",
+  "id": "a4acd070"
+}
