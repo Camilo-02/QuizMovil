@@ -31,10 +31,10 @@ public class ProveedorService implements IProveedorService {
 
     @Override
     public void update(Proveedor proveedor, String id) {
-        Optional<Proveedor> pv = repository.findById(id);
+        Optional<Proveedor> ps = repository.findById(id);
 
-        if (!pv.isEmpty()) {
-            Proveedor proveedorUpdate = pv.get();
+        if (!ps.isEmpty()) {
+            Proveedor proveedorUpdate = ps.get();
             proveedorUpdate.setNombre(proveedor.getNombre());
             proveedorUpdate.setDireccion(proveedor.getDireccion());
             proveedorUpdate.setCodigo(proveedor.getCodigo());
